@@ -1,0 +1,136 @@
+body {
+    /*font-family: 'Baloo Bhai', cursive;*/
+    margin: 0px;
+    padding: 0px;
+   
+
+    /* background-image: url('bg.png');
+    background-repeat: no-repeat;
+    height: 5677px;*/
+
+}
+
+.left {
+    /* border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+
+}
+
+.left img {
+    width: 160px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mid {
+    /* border: 2px solid black;*/
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 12px;
+
+    /*border: 2px solid blue;*/
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: grey;
+    text-decoration: none;
+    padding: 34px 28px;
+    text-align: center;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.btn {
+    background-color: black;
+    margin: 0 12px;
+    width: 175px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 4px 14px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+.sell {
+    border: 2px solid blue;
+    margin: 200px 200px 300px 100px;
+    padding: 20px;
+    width: 70%;
+    height: 350px;
+    border-radius: 22px;
+    background-color: aqua;
+
+}
+
+.sell h1 {
+    text-align: center;
+}
+.product_type{
+    font-size: medium;
+    border: 2px solid green;
+}
+.brand{
+    margin: 10px auto;
+    object-position: 6rem;
+    width: 217px;
+    font-size: medium;
+    border: 2px solid green;
+    
+}
+.desc input{
+    box-sizing: border-box;
+    width: 450px;
+    height: 150px;
+}.photo{
+    float:right;
+    text-align: center;
+    display: block;
+    margin: -100px 80px;
+    padding: 40px;
+    /* border: 3px solid rgb(141, 37, 54); */
+    width: 150px;
+}
+.photo input{
+    width: 100%;
+     height: 100%;   
+}
+.submit button{
+    float: right;
+    text-align: center;
+    display: block;
+    margin: -40px 80px;
+    padding: 15px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selling page</title>
+    <link rel="stylesheet" src="selling.css">
+
+<body>
+    <div>
+        <header class="header">
+
+            <div class="left">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Register/Login</button>
+            </div>
+        </header>
+        <div class="sell">
+            <h1>Sell your E-Waste</h1>
+            <label for="cars">Choose your product category:</label>
+
+            <select class="product_type">
+                <option value="">***select any one***</option>
+                <option id="ep" value="Earphones/Headphones">Earphones/Headphones</option>
+                <option id="fr" value="Fridge">Fridge</option>
+                <option id="lt" value="Laptop/TV">Laptop/TV</option>
+                <option id="dt" value="cables">cables</option>
+                <option id="tc" value="Telecom Equipments">Telecom Equipments</option>
+                <option id="ba" value="Battery Disposal">Battery Disposal</option>
+            </select>
+            <br>
+            <label>Choose your product Brand:</label>
+            <select class="brand">
+                <option value="">***select any one***</option>
+                <option value="a">Samsung</option>
+                <option value="b">Apple</option>
+                <option value="c">Redmi</option>
+                <option value="d">Lenovo</option>
+                <option value="e">Hp</option>
+                <option value="f">Dell</option>
+            </select>
+            <div class="photo">
+                <h3> Add Some Photos</h3>
+                <input type="image" src="add.png" alt="Submit" width="48" height="48">
+            </div>
+
+            <div class="desc">
+                Product Description <br><input type="text" placeholder="Describe about your product" width="450px"
+                    height="150px">
+            </div>
+            <div class="submit">
+                <button class="btn">Post</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="pavascript.js">  </script>
+</body>
+
+</html>

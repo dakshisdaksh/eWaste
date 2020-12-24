@@ -1,0 +1,135 @@
+body {
+    /*font-family: 'Baloo Bhai', cursive;*/
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: -6% 58%;
+
+    /* background-image: url('bg.png');
+    background-repeat: no-repeat;
+    height: 5677px;*/
+
+}
+
+.left {
+    /* border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+
+}
+
+.left img {
+    width: 160px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mid {
+    /* border: 2px solid black;*/
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 12px;
+
+    /*border: 2px solid blue;*/
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: grey;
+    text-decoration: none;
+    padding: 34px 28px;
+    text-align: center;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.btn {
+    background-color: black;
+    margin: 0 12px;
+    width: 175px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 4px 14px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.cont {
+    border: 2px solid blue;
+    margin: 200px 200px 200px 800px;
+    padding: 20px;
+    width: 33%;
+    border-radius: 22px;
+    background-color: aqua;
+
+}
+
+.cont h1 {
+    text-align: center;
+}
+
+.cont .btn {
+    display: block;
+    width: 125px;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.formgrp input {
+
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+    padding: 4px;
+    border: 3px solid rgb(141, 37, 54);
+    width: 400px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.footer{
+width: 100%;
+
+text-align: center;
+/* position: fixed; */
+left: 0;
+bottom: 0;
+width: 100%;
+height: 43px;
+background-color: rgb(210, 241, 243);
+color: white;
+
+}
