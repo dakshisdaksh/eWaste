@@ -1,0 +1,77 @@
+<style> 
+    .left {
+        /* border: 2px solid red;*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 12px;
+
+    }
+
+    .left img {
+        width: 160px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .mid {
+        /* border: 2px solid black;*/
+        display: block;
+        width: 40%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 12px;
+
+        /*border: 2px solid blue;*/
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: grey;
+        text-decoration: none;
+        padding: 34px 28px;
+        text-align: center;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        text-decoration-color: green;
+    }
+
+    .btn {
+        background-color: black;
+        margin: 0 12px;
+        width: 175px;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 4px 14px;
+        border: 2px solid red;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+</style>
